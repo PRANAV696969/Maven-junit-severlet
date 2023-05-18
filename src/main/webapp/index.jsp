@@ -52,7 +52,7 @@ Experience the beauty and tranquility of national parks as you connect with the 
                         <li>Kudremukh National Park</li>
                     </ul>
                     <br>
-                    <img src="n1.png" style="width:60%" alt="Responsive">                  
+                                    
                     <hr>
                     <h2>National Parks: Preserving Nature's Treasures</h2>
                     <p>National parks are nature's sanctuaries, meticulously preserved and protected for the benefit of both present and future generations. These biodiverse havens serve as vital ecosystems, harboring a rich tapestry of flora, fauna, and breathtaking landscapes. Spanning vast expanses of land, national parks provide a haven for wildlife, a playground for outdoor enthusiasts, and a source of inspiration for all who visit.</p>                    
