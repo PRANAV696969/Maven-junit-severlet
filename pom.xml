@@ -11,6 +11,10 @@
   <properties>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
+    <sonar.projectKey>sample01</sonar.projectKey>
+    <sonar.projectName>sample01</sonar.projectName>
+    <sonar.host.url>http://10.47.35.181:9000</sonar.host.url>
+    <sonar.token>sqp_b78c754c3bab0d93e71d54ec6cb146d6c8d4c238</sonar.token>
   </properties>
 
   <dependencies>
@@ -30,6 +34,11 @@
 
   <build>
     <plugins>
+      <plugin>
+        <groupId>org.sonarsource.scanner.maven</groupId>
+        <artifactId>sonar-maven-plugin</artifactId>
+        <version>3.8.0.2131</version>
+      </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-war-plugin</artifactId>
