@@ -3,6 +3,6 @@ services:
   web:
     image: myapp:${IMAGE_TAG}
     ports:
-      - "8078:8080"  # First replica
-      - "8079:8080"  # Second replica
-      - "8080:8080"  # Third replica
+      - "8023:8080"  # First replica
+      - "8022:8080"  # Second replica
+      - "8021:8080"  # Third replica
