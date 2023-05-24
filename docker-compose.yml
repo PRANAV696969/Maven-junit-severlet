@@ -5,4 +5,4 @@ services:
     deploy:
       replicas: 3
     ports:
-      - 8078:8080
+      - 8077:8080
