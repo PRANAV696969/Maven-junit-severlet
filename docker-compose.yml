@@ -1,8 +1,8 @@
 version: '3'
 services:
   web:
-    image: myapp:${env.BUILD_NUMBER}
+    image: myapp:${IMAGE_TAG}
     ports:
-      - "8071:8080"  # First replica
-      - "8072:8080"  # Second replica
-      - "8073:8080"  # Third replica
+      - "8078:8080"  # First replica
+      - "8079:8080"  # Second replica
+      - "8080:8080"  # Third replica
