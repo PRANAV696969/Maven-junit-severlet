@@ -1,7 +1,7 @@
 version: '3'
 services:
   web:
-    image: myapp:${IMAGE_TAG}
+    image: myapp:29
     ports:
       - "8023:8080"  # First replica
       - "8022:8080"  # Second replica
